@@ -3,3 +3,9 @@ export interface SideBarLinkProps {
   Icon: any;
   handleClick: () => void;
 }
+
+export interface User {
+  first: string;
+  last: string;
+  user_name: string;
+}
