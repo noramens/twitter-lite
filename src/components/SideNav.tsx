@@ -1,6 +1,6 @@
 import HomeIcon from '@material-ui/icons/Home';
 import PermIdentityIcon from '@material-ui/icons/PermIdentity';
-import { SideBarLinkProps } from './interfaces';
+import { SideBarLinkProps } from '../interfaces';
 import { useNavigate } from 'react-router-dom';
 import { SideBar, SideBarLink, SideBarText, TweetButton } from './styles';
 
